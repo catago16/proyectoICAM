@@ -1,0 +1,65 @@
+Objetivo General:
+
+**Analizar la calidad del agua marina a lo largo de diferentes playas de la costa colombiana utilizando
+ la base de datos del ICAM, con el fin de identificar patrones de contaminación y proporcionar recomendaciones estarategias
+ para su uso optimo en actividades como la pesca y la slainas, para la mejora de la gestión ambiental, y la seguridad pública.
+
+ Objetivos Específicos:
+
+1. Realizar un análisis descriptivo de los datos del ICAM  
+
+   - Analizar las variables relacionadas con los hidrocarburos presentes en la base de datos del ICAM, junto con otras variables
+ para comprender la magnitud y distribución de la contaminación por hidrocarburos y obtener una visión general
+ de la calidad del agua en cuerpos de agua marinos evaluados en el período de estudio.
+  
+2. Identificar tendencias y patrones espaciales de contaminación a lo largo del tiempo 
+
+   - Aplicar técnicas de análisis temporal y espacial para detectar cambios en la calidad del agua a lo largo de diferentes estaciones
+ del año, así como posibles concentraciones de contaminación en zonas geográficas específicas, utilizando herramientas de visualización 
+de datos como mapas y gráficos de series temporales.
+
+3. Evaluar la relación entre los indicadores de calidad del agua y las actividades económicas en las zonas costeras,
+ como el turismo, la pesca y la acuicultura
+
+Analizar cómo los parámetros de calidad del agua (por ejemplo, coliformes fecales, nutrientes y oxígeno disuelto) afectan a las actividades económicas claves 
+en las zonas costeras, como el turismo, pesca (calidad del agua para la vida marina) y acuicultura (condiciones del agua para la 
+producción de mariscos y peces). Identificar posibles impactos económicos derivados de la contaminación del agua.
+
+
+__________________________________________________________________________________________________
+
+guia y procedimientos
+
+1.Analisis exploratorio de datos
+2.Evolución del ICAM año tras año por departamento o estación ()
+3.Líneas de tiempo para ver si la calidad mejora o empeora.
+4.Usar la latitud y longitud para hacer un mapa de calor o mapas de burbujas que muestren la calidad del agua.
+5.grafica de la concentraicon de hdd a lo largo de los años, 
+  5.1.  comparacion por cada estacion, 
+  5.2.  comparacion por cada estacion cada año 
+6.¿Qué variable (OD, NO₃, PO₄, SST, etc.) está más asociada a un bajo ICAM?
+7.Gráficas de dispersión (scatter plots) con color según calificación.
+8.¿Qué departamentos tienen históricamente mejor o peor calidad?
+9.que estaciones tienen mas contaminacion por año y en promedio.
+10.Encontrar años o estaciones donde hubo "picos raros" en alguna variable.
+11.Análisis: Detección de outliers (gráficas de caja).
+12.Relación entre el número de variables medidas y la confianza
+13.¿Mayor número de variables medidas implica mejor "confianza" en el ICAM?
+14.Gráfica Scatter plot entre num_variables vs confianza
+15.Analizar la correlación entre las variables (NO₃, PO₄, OD, etc.) y el valor del ICAM:
+16.Saber qué contaminante impacta más la calidad del agua: por ejemplo, si el aumento de nitratos (NO₃) baja mucho el ICAM, 
+
+ 
+otros analisis por si es necesario:
+Crear un modelo de regresión lineal múltiple para predecir el ICAM en función de las variables medidas.
+-Análisis de factores principales (PCA)
+Reducir las dimensiones para encontrar los factores clave que explican la variabilidad en los datos de calidad del agua.
+Estudiar cómo la cantidad de variables (num_variables) y la calidad de datos (confianza) influyen en la precisión del ICAM.
+Posible modelo: regresión logística si tratamos "adecuado/inadecuado" como clasificación.
+Evaluar la robustez del dato: ver si tener más variables medidas mejora la confianza en el ICAM.
+Optimizar campañas de monitoreo: saber si es necesario medir muchas variables o si pocas bastan para un dato confiable.
+Detectar debilidades en la red de monitoreo: si hay sitios con baja confianza, puedes investigar si es por falta de datos.
+Soportar decisiones de validación de datos: justificar qué datos aceptar o descartar.
+
+
+
