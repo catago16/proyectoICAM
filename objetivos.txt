@@ -28,19 +28,20 @@ producción de mariscos y peces). Identificar posibles impactos económicos deri
 
 __________________________________________________________________________________________________
 
-guia y procedimientos
+Guía y procedimientos
 
-1.Analisis exploratorio de datos
-2.Evolución del ICAM año tras año por departamento o estación ()
+1. Analisis exploratorio de datos y limpieza de datos
+  1.1. Analisis estadístico
+2.Evolución del ICAM año tras año por departamento 
 3.Líneas de tiempo para ver si la calidad mejora o empeora.
 4.Usar la latitud y longitud para hacer un mapa de calor o mapas de burbujas que muestren la calidad del agua.
-5.grafica de la concentraicon de hdd a lo largo de los años, 
-  5.1.  comparacion por cada estacion, 
-  5.2.  comparacion por cada estacion cada año 
-6.¿Qué variable (OD, NO₃, PO₄, SST, etc.) está más asociada a un bajo ICAM?
+5.grafica de la concentraicon de contaminantes a lo largo de los años
+  5.1.  comparacion por cada contaminante en promedio
+  5.2.  comparacion por cada contaminante cada año 
+6.¿Qué variable (OD, NO₃, PO₄, SST, etc.) está más asociada a un bajo ICAM? (hacer matriz de correlacion)
 7.Gráficas de dispersión (scatter plots) con color según calificación.
 8.¿Qué departamentos tienen históricamente mejor o peor calidad?
-9.que estaciones tienen mas contaminacion por año y en promedio.
+9.Que estaciones tienen mas contaminacion por año y en promedio.
 10.Encontrar años o estaciones donde hubo "picos raros" en alguna variable.
 11.Análisis: Detección de outliers (gráficas de caja).
 12.Relación entre el número de variables medidas y la confianza
