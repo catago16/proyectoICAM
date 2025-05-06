@@ -33,7 +33,7 @@ Guía y procedimientos
 1. Analisis exploratorio de datos y limpieza de datos
   1.1. Analisis estadístico
 2.Evolución del ICAM año tras año por departamento 
-3.Líneas de tiempo para ver si la calidad mejora o empeora.
+3.Líneas de tiempo para ver si la calidad mejora o empeora por contaminante.
 4.Usar la latitud y longitud para hacer un mapa de calor o mapas de burbujas que muestren la calidad del agua.
 5.grafica de la concentraicon de contaminantes a lo largo de los años
   5.1.  comparacion por cada contaminante en promedio
@@ -51,7 +51,7 @@ Guía y procedimientos
 16.Saber qué contaminante impacta más la calidad del agua: por ejemplo, si el aumento de nitratos (NO₃) baja mucho el ICAM, 
 
  
-otros analisis por si es necesario:
+otros analisis por si es necesario:..
 Crear un modelo de regresión lineal múltiple para predecir el ICAM en función de las variables medidas.
 -Análisis de factores principales (PCA)
 Reducir las dimensiones para encontrar los factores clave que explican la variabilidad en los datos de calidad del agua.
