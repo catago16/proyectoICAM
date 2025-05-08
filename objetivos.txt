@@ -33,10 +33,18 @@ Guía y procedimientos
 
 1. Analisis exploratorio de datos y limpieza de datos
 2.Evolución del ICAM año tras año por departamento 
+<<<<<<< HEAD
+3.  ver si la calidad ICAM mejora o empeora por contaminante.
+  3.1.Grafica de la concentraicon de todos los contaminantes a lo largo de los años
+  5.1.  comparacion por cada contaminante en promedio
+  5.2.  comparacion por cada contaminante cada año 
+4.Usar la latitud y longitud para hacer un mapa de calor o mapas de burbujas que muestren la calidad del agua.  
+=======
 3.Líneas de tiempo para ver si la calidad mejora o empeora por contaminante.
   3.1.Grafica de la concentraicon de contaminantes a lo largo de los años
   3.1.  Comparacion por cada contaminante en promedio 
 4. Usar la latitud y longitud para hacer un mapa de calor o mapas de burbujas que muestren la calidad del agua.  
+>>>>>>> main
 5.¿Qué variable (OD, NO₃, PO₄, SST, etc.) está más asociada a un bajo ICAM? (hacer matriz de correlacion)
  5.1 Analizar la correlación entre las variables (NO₃, PO₄, OD, etc.) y el valor del ICAM:
 6.Gráficas de dispersión (scatter plots) con color según calificación.
