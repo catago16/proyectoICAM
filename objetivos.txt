@@ -31,27 +31,20 @@ ________________________________________________________________________________
 
 Guía y procedimientos
 
-1. Analisis exploratorio de datos y limpieza de datos
-2.Evolución del ICAM año tras año por departamento 
-<<<<<<< HEAD
-3.  ver si la calidad ICAM mejora o empeora por contaminante.
-  3.1.Grafica de la concentraicon de todos los contaminantes a lo largo de los años
+1. Analisis exploratorio de datos y limpieza de                         x
+2. Evolución del ICAM año tras año por departamento                     x
+3.  ver si la calidad ICAM mejora o empeora por contaminante.           x
+  3.1.Grafica de la concentraicon de todos los contaminantes a lo largo de los años                 x
   5.1.  comparacion por cada contaminante en promedio
   5.2.  comparacion por cada contaminante cada año 
-4.Usar la latitud y longitud para hacer un mapa de calor o mapas de burbujas que muestren la calidad del agua.  
-=======
-3.Líneas de tiempo para ver si la calidad mejora o empeora por contaminante.
-  3.1.Grafica de la concentraicon de contaminantes a lo largo de los años
-  3.1.  Comparacion por cada contaminante en promedio 
-4. Usar la latitud y longitud para hacer un mapa de calor o mapas de burbujas que muestren la calidad del agua.  
->>>>>>> main
-5.¿Qué variable (OD, NO₃, PO₄, SST, etc.) está más asociada a un bajo ICAM? (hacer matriz de correlacion)
- 5.1 Analizar la correlación entre las variables (NO₃, PO₄, OD, etc.) y el valor del ICAM:
-6.Gráficas de dispersión (scatter plots) con color según calificación.
+4. Usar la latitud y longitud para hacer un mapa de calor o mapas de burbujas que muestren la calidad del agua.   
+5.¿Qué variable (OD, NO₃, PO₄, SST, etc.) está más asociada a un bajo ICAM? (hacer matriz de correlacion)              x
+ 5.1 Analizar la correlación entre las variables (NO₃, PO₄, OD, etc.) y el valor del ICAM:                             x
+6.Gráficas de dispersión (scatter plots) con color según calificación.                                                 x
 7.Que estaciones tienen mas contaminacion por año y en promedio (con las principales y sin grafica)
-8.Encontrar años o estaciones donde hubo "picos raros" en alguna variable.
-10.¿Mayor número de variables medidas implica mejor "confianza" en el ICAM? Relación entre el número de variables medidas y la confianza
-  10.1.Gráfica Scatter plot entre num_variables vs confianza (entre mas datos...)
+8.Encontrar años o estaciones donde hubo "picos raros" en alguna variable.                  
+10.¿Mayor número de variables medidas implica mejor "confianza" en el ICAM? Relación entre el número de variables medidas y la confianza          x
+  10.1.Gráfica Scatter plot entre num_variables vs confianza (entre mas datos...)                   x                                            
 11.Saber qué contaminante impacta más la calidad del agua: por ejemplo, si el aumento de nitratos (NO₃) baja mucho el ICAM 
 12.Análisis: Detección de outliers (gráficas de caja).
   12.1. 
@@ -61,12 +54,8 @@ Guía y procedimientos
 
 
  ________________________________________________________________________________________________________________________________
-otros analisis por si es necesario:..
-Crear un modelo de regresión lineal múltiple para predecir el ICAM en función de las variables medidas.
--Análisis de factores principales (PCA)
-Reducir las dimensiones para encontrar los factores clave que explican la variabilidad en los datos de calidad del agua.
-Estudiar cómo la cantidad de variables (num_variables) y la calidad de datos (confianza) influyen en la precisión del ICAM.
-Posible modelo: regresión logística si tratamos "adecuado/inadecuado" como clasificación.
+otros analisis por si es necesario:.. para las conclusiones
+
 Evaluar la robustez del dato: ver si tener más variables medidas mejora la confianza en el ICAM.
 Optimizar campañas de monitoreo: saber si es necesario medir muchas variables o si pocas bastan para un dato confiable.
 Detectar debilidades en la red de monitoreo: si hay sitios con baja confianza, puedes investigar si es por falta de datos.
