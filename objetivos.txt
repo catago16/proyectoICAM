@@ -32,21 +32,33 @@ ________________________________________________________________________________
 Guía y procedimientos
 
 1. Analisis exploratorio de datos y limpieza de                         x
+
 2. Evolución del ICAM año tras año por departamento                     x
-3.  ver si la calidad ICAM mejora o empeora por contaminante.           x
-  3.1.Grafica de la concentraicon de todos los contaminantes a lo largo de los años                 x
-  5.1.  comparacion por cada contaminante en promedio
-  5.2.  comparacion por cada contaminante cada año 
-4. Usar la latitud y longitud para hacer un mapa de calor o mapas de burbujas que muestren la calidad del agua.   
-5.¿Qué variable (OD, NO₃, PO₄, SST, etc.) está más asociada a un bajo ICAM? (hacer matriz de correlacion)              x
- 5.1 Analizar la correlación entre las variables (NO₃, PO₄, OD, etc.) y el valor del ICAM:                             x
-6.Gráficas de dispersión (scatter plots) con color según calificación.                                                 x
-7.Que estaciones tienen mas contaminacion por año y en promedio (con las principales y sin grafica)
-8.Encontrar años o estaciones donde hubo "picos raros" en alguna variable.                  
-10.¿Mayor número de variables medidas implica mejor "confianza" en el ICAM? Relación entre el número de variables medidas y la confianza          x
-  10.1.Gráfica Scatter plot entre num_variables vs confianza (entre mas datos...)                   x                                            
-11.Saber qué contaminante impacta más la calidad del agua: por ejemplo, si el aumento de nitratos (NO₃) baja mucho el ICAM 
-12.Análisis: Detección de outliers (gráficas de caja).
+
+3. Gráfica de la concentraicon de todos los contaminantes a lo largo de los años                 x
+
+4.  Comportamiento de la calidad del ICAM por contaminante. Mejora o empeora?         x
+  4.1.  Comparacion por cada contaminante en promedio
+  4.2.  Comparacion por cada contaminante cada año 
+  4.3   Que estaciones tienen mas contaminacion por año y en promedio (con las principales y sin grafica)
+
+5.¿Qué variable está más asociada a un bajo ICAM? (Matriz de correlacion)              x
+  5.1 Analizar la correlación entre las variables (NO₃, PO₄, OD, etc.) y el valor del ICAM:  
+
+6. Grafica de categorias. Comportamiento de las variables numericas en funcion de las categoricas
+
+7. Gráficas de dispersión (scatter plots) con color según calificación.                                                 
+
+8. Mapa de georeferenciacion de las estaciones.                                 x
+  8.1 mapa de calor o mapas de burbujas que muestren la calidad del agua.       
+
+9.Encontrar años o estaciones donde hubo "picos raros" en alguna variable.                  
+
+10.¿Mayor número de variables medidas implica mejor "confianza" en el ICAM?           x
+
+  10.1.Gráfica Scatter plot entre num_variables vs confianza (entre mas datos...) Relación entre el número de variables medidas y la confianza          x          
+
+12.Análisis: Detección de outliers (gráficas de caja).                 x
   12.1. 
 
 
